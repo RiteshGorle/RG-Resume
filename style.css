@@ -1,0 +1,133 @@
+/* WebSite Name: Gorle Profile
+   Made by: Ritesh Gorle 
+   Created: Octomber 2022
+   Content: Resume 
+*/
+
+/*****************************************
+Table Of Contents:
+
+SECTION 01: HEADER
+SECTION 02: EDUCATION
+SECTION 03: INTRO
+SECTION 00: HIDE SHOW EDUCATION
+SECTION 04: COURSES
+ 
+******************************************/
+
+
+
+/***********************************/
+/*      01. BASIC CSS STYLES      */
+/***********************************/
+
+
+body{
+  background: white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  #my-content { display: none; }  /* hide it elsewhere */
+
+  #why-content { display: block; }
+}
+
+@media screen and (min-width: 501px) and (max-width: 4000px) {
+  #my-content { display:block; }  /* show it on big screens */
+   
+   #why-content { display: none; }
+}
+
+
+
+
+/***********************************/
+/*      SECTION 01: HEADER         */
+/***********************************/
+.header{
+  background: #ff3333;
+  
+}
+
+
+
+/***********************************/
+/*      SECTION 02: EDUCATION      */
+/***********************************/
+.Education{
+  font-size: 30px;
+  color: red;
+  
+}
+
+#id77{
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.First-list{
+  font-size: 17px;
+}
+
+
+
+
+/***********************************/
+/*        SECTION 03: INTRO        */
+/***********************************/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  
+  font-family: arial;
+}
+
+#id99{
+text-align: center;
+box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 35px;
+  padding: 5px;
+  color: red;
+}
+
+ a:hover {
+  opacity: 0.7;
+}
+
+
+
+
+/***********************************/
+/*      SECTION 04: COURSES        */
+/***********************************/
+.Course{
+  color: red;
+
+}
+
+#id88{
+  border: 3px solid red;
+  border-radius: 20px;
+}
+
+
+.contact{
+  font-size: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+ .contact{
+  font-size: 18px;
+}
+}
+
